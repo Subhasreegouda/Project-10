@@ -1,0 +1,135 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general page layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('image1.jpg') no-repeat center center/cover;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(245, 241, 241);
+    text-align: center;
+    
+}
+
+.hero-content p {
+   margin-top: 200px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Why Study Section */
+.why-study {
+    padding: 50px;
+    background-color: #e0e0d5;
+    text-align: center;
+    font-family: imogi;
+}
+
+.why-study h2 {
+    margin-bottom: 20px;
+}
+
+.why-study ul {
+    list-style-type: none;
+}
+
+.why-study li {
+    margin: 10px 0;
+}
+
+/* Top Countries Section */
+.top-countries {
+    padding: 50px;
+    /* background-color: #167de4; */
+    background: url(image7.jpg) no-repeat center center/cover;
+    height: 45vh;
+    text-align: left;
+    font-weight: bold;
+}
+
+.top-countries h2 {
+    margin-bottom: 20px;
+}
+
+/* Admission Process Section */
+.admission-process {
+    padding: 50px;
+    background-color: #e0e0d5;
+    text-align: left;
+
+}
+
+.admission-process ol {
+    list-style-type: decimal;
+}
+
+/* CTA Form Section */
+.cta-form {
+    padding: 50px;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+.cta-form h2 {
+    margin-bottom: 20px;
+}
+
+.cta-form form {
+    display: inline-block;
+    max-width: 400px;
+    background-color: #686b69;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input, .cta-form select, .cta-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+
+.cta-form button {
+    background-color: #007BFF;
+    color: rgb(243, 238, 238);
+    cursor: pointer;
+}
+
+.cta-form button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    background-color: #686b69;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
